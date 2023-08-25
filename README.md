@@ -27,3 +27,11 @@ endpoint created in `#1` and also displays the result in the UI.
 
 Please push your code to either GitHub or gitlab and 
 send me the workable link.
+
+---
+
+## Credits
+
+- WebStorm's express template
+- [WeatherAPI](https://www.weatherapi.com/)
+- [WeatherAPI Swagger Documentation](https://app.swaggerhub.com/apis-docs/WeatherAPI.com/WeatherAPI/1.0.2-oas3-oas3.1-oas3.1/#/)
