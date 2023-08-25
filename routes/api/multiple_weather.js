@@ -32,6 +32,8 @@ router.post(
             returnObj[city] = `${temps[index][city]}C`;
         });
 
+        returnObj = {"weather": returnObj};
+
         console.log(`returnObj:`);
         console.log(returnObj);
 

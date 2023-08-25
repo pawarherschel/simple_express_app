@@ -5,7 +5,6 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const weatherTestRouter = require('./routes/api/single_weather');
 const weatherRouter = require('./routes/api/multiple_weather');
 
 const app = express();
@@ -19,7 +18,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-app.use('/api/test/weather', weatherTestRouter);
-app.use('/api/weather', weatherRouter);
+app.use('/getWeather', weatherRouter);
 
 module.exports = app;
